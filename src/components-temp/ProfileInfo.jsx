@@ -3,9 +3,9 @@ import Button from "@mui/material/Button";
 import fotoProfesional from "@/assets/FOTO PROFESIONAL.jpg";
 import CV from "@/assets/Camilo Pérez Barraza Front-end Engineer Resume English.pdf";
 import { motion } from "motion/react";
-import { TypingAnimation } from "@/components/ui/typing-animation";
+import { TypingAnimation } from "@/components-temp/ui/typing-animation";
 
-import { TextAnimate } from "@/components/ui/text-animate";
+import { TextAnimate } from "@/components-temp/ui/text-animate";
 
 const whatsApp = "https://wa.me/573005239992";
 const transition = {
