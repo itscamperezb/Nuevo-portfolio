@@ -1,13 +1,13 @@
 import "./App.css";
-import Header from "./Components/Header.jsx";
-import Footer from "./Components/Footer.jsx";
-import Projects from "./Components/NabTabs/Projects.jsx";
-import Experience from "./Components/NabTabs/Experience.jsx";
-import ExperienceIcons from "./Components/ExperienceIcons.jsx";
-import ProfileInfo from "./Components/ProfileInfo.jsx";
-import NavTabsInfo from "./Components/NabTabs/NavTabsInfo.jsx";
+import Header from "./components/Header.jsx";
+import Footer from "./components/Footer.jsx";
+import Projects from "./components/NabTabs/Projects.jsx";
+import Experience from "./components/NabTabs/Experience.jsx";
+import ExperienceIcons from "./components/ExperienceIcons.jsx";
+import ProfileInfo from "./components/ProfileInfo.jsx";
+import NavTabsInfo from "./components/NabTabs/NavTabsInfo.jsx";
 
-import { Particles } from "@/Components/ui/Particles.jsx";
+import { Particles } from "@/components/ui/particles.jsx";
 
 function App() {
   return (
