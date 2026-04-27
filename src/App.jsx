@@ -7,7 +7,7 @@ import ExperienceIcons from "./Components/ExperienceIcons.jsx";
 import ProfileInfo from "./Components/ProfileInfo.jsx";
 import NavTabsInfo from "./Components/NabTabs/NavTabsInfo.jsx";
 
-import { Particles } from "@/components/ui/particles";
+import { Particles } from "@/Components/ui/Particles";
 
 function App() {
   return (
