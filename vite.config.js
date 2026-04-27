@@ -13,5 +13,5 @@ export default defineConfig({
     },
   },
 
-  base: "https://itscamperezb.github.io/Camilo-Perez-Portfolio/",
+  base: "https://itscamperezb.github.io/Nuevo-portfolio/",
 });
