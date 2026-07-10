@@ -10,6 +10,7 @@ import tailwind from "../assets/tailwind.svg";
 import typeScript from "@/assets/typeScript.svg";
 import Expo from "@/assets/client.svg";
 import Supabase from "@/assets/supabase-logo-icon.svg";
+import n8n from "@/assets/n8n.svg";
 const icons = [
   {
     id: 1,
@@ -55,6 +56,10 @@ const icons = [
     id: 11,
     icon: Supabase,
   },
+  {
+    id: 12,
+    icon: n8n,
+  },
 ];
 function ExperienceIcons() {
   const hoverBlueShadow =
@@ -65,7 +70,10 @@ function ExperienceIcons() {
       <div className="w-full flex justify-center">
         <div className="flex flex-wrap justify-center size-3/4 p-4">
           {icons.map((item) => (
-            <div key={item.id} className="flex items-center justify-center w-[calc(100%/9)] max-sm:w-1/4">
+            <div
+              key={item.id}
+              className="flex items-center justify-center w-[calc(100%/9)] max-sm:w-1/4"
+            >
               <div className={hoverBlueShadow}>
                 <img
                   src={item.icon}

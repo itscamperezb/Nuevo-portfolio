@@ -24,10 +24,24 @@ import { sup } from "motion/react-client";
 import { supportsBrowserAnimation } from "motion";
 import supabase from "@/assets/supabase-logo-icon.svg";
 import expo from "@/assets/client.svg";
+import workflow from "@/assets/FinanceBot.png";
+import n8n from "@/assets/n8n.svg";
 const projects = [
   {
     key: 1,
     id: 1,
+    title: "Finance Telegram Bot",
+    description:
+      "A Telegram bot for managing personal finances, providing features cost registration and informs.",
+    tech: ["n8n", "git"],
+    techIcons: [n8n, git],
+    image: workflow,
+    github: "https://github.com/itscamperezb/FinanceAssistant.git",
+    demo: "https://expo.dev/preview/update?message=fix%3A+impostor+aleatorio+y+m%C3%BAsica+persistente+entre+partidas&updateRuntimeVersion=1.0.0&createdAt=2026-04-26T22%3A02%3A21.746Z&slug=exp&projectId=c059b960-8aed-4180-b956-8df54fd8a153&group=92b7b8f7-645d-4d18-916d-bb7a49cd86af",
+  },
+  {
+    key: 2,
+    id: 2,
     title: "Impostor Game (Mobile)",
     description:
       "Mobile Game inspired on the viral tiktok game called Impostor, where the player has to find the impostor between all players, this game is in development and is created with React Native and Expo",
@@ -38,8 +52,8 @@ const projects = [
     demo: "https://expo.dev/preview/update?message=fix%3A+impostor+aleatorio+y+m%C3%BAsica+persistente+entre+partidas&updateRuntimeVersion=1.0.0&createdAt=2026-04-26T22%3A02%3A21.746Z&slug=exp&projectId=c059b960-8aed-4180-b956-8df54fd8a153&group=92b7b8f7-645d-4d18-916d-bb7a49cd86af",
   },
   {
-    key: 2,
-    id: 2,
+    key: 3,
+    id: 3,
     title: "DailyFlow App",
     description:
       "A personal productivity web app that combines visual weekly planning with financial tracking. It allows you to organize your time by category track daily and weekly progress, and analyze your monthly income and expenses.",
@@ -50,8 +64,8 @@ const projects = [
     demo: "https://daily-flow-eta-ten.vercel.app/login/",
   },
   {
-    key: 3,
-    id: 3,
+    key: 4,
+    id: 4,
     title: "Online Catalog Perfumes T11",
     description:
       "My first Demo App, and is a Web Catalog for a Local perfume Shoo Located in Barranquilla",
@@ -63,8 +77,8 @@ const projects = [
   },
 
   {
-    key: 4,
-    id: 4,
+    key: 5,
+    id: 5,
     title: "BuscaPelis",
     description:
       "This is an website where people can find information for more tha 1 million movies and 200.000 TV Series. This website works with TMDB API",
@@ -84,8 +98,8 @@ const projects = [
     demo: "https://itscamperezb.github.io/BuscaPelis/",
   },
   {
-    key: 5,
-    id: 5,
+    key: 6,
+    id: 6,
     title: "SIMON DICE GAME",
     description:
       "Online version of Simon Says Game created to apply the manipulation of arrays, using push methods, validation and conditional Styling",
@@ -97,8 +111,8 @@ const projects = [
   },
 
   {
-    key: 6,
-    id: 6,
+    key: 7,
+    id: 7,
     title: "Keeper App",
     description: "A basic keeper App to save information online",
     tech: ["React", "CSS", "Vite", "html", "git"],
@@ -108,8 +122,8 @@ const projects = [
     demo: "https://itscamperezb.github.io/MyKeeperApp/",
   },
   {
-    key: 7,
-    id: 7,
+    key: 8,
+    id: 8,
     title: "Tic-Tac-Toe Game",
     description:
       "Is a tic-tac-toe demo App created to implement programing logic using objects, arrays and useSate Hooks",
@@ -120,8 +134,8 @@ const projects = [
     demo: "https://itscamperezb.github.io/TIC-TAC-TOE/",
   },
   {
-    key: 8,
-    id: 8,
+    key: 9,
+    id: 9,
     title: "Investment Calculator",
     description:
       "An investment Calculator so the people can calculate how much money can they get for investing with certain interest",
@@ -132,8 +146,8 @@ const projects = [
     demo: "https://itscamperezb.github.io/Invesment-Calculator/",
   },
   {
-    key: 9,
-    id: 9,
+    key: 10,
+    id: 10,
     title: "CountDown-Game",
     description:
       "This is a CountDown-Game where I implement the use of Hooks like useRef and useState, using programing logic to render and calculate the Score",
@@ -144,8 +158,8 @@ const projects = [
     demo: "https://itscamperezb.github.io/CountdownGame/",
   },
   {
-    key: 10,
-    id: 10,
+    key: 11,
+    id: 11,
     title: "Jobify App",
     description: "Full stack Mobile App in development with Jobify Team",
     tech: ["React", "js", "NextJs", "Css", "Tailwind", "git"],
