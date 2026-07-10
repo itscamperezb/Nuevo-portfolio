@@ -32,7 +32,7 @@ const projects = [
     id: 1,
     title: "Finance Telegram Bot",
     description:
-      "A Telegram bot for managing personal finances, providing features cost registration and informs.",
+      "A Telegram bot that helps manage personal finances, letting users log expenses and receive spending reports directly in chat. Built as an automated workflow with n8n.",
     tech: ["n8n", "git"],
     techIcons: [n8n, git],
     image: workflow,
@@ -44,7 +44,7 @@ const projects = [
     id: 2,
     title: "Impostor Game (Mobile)",
     description:
-      "Mobile Game inspired on the viral tiktok game called Impostor, where the player has to find the impostor between all players, this game is in development and is created with React Native and Expo",
+      "A mobile party game inspired by the viral Impostor format: players have to figure out who the impostor is. Currently in development with React Native and Expo, using Supabase for the backend.",
     tech: ["html", "CSS", "git", "react", "expo", "Supabase"],
     techIcons: [html, css, git],
     image: ImpostorGame,
@@ -56,7 +56,7 @@ const projects = [
     id: 3,
     title: "DailyFlow App",
     description:
-      "A personal productivity web app that combines visual weekly planning with financial tracking. It allows you to organize your time by category track daily and weekly progress, and analyze your monthly income and expenses.",
+      "A personal productivity web app that combines visual weekly planning with expense tracking. Organize your time by category, follow daily and weekly progress, and review monthly income and spending.",
     tech: ["html", "CSS", "git", "react", "typeScript", "supabase"],
     techIcons: [html, css, git, reactLogo, typeScript, supabase],
     image: DailyFlow,
@@ -68,7 +68,7 @@ const projects = [
     id: 4,
     title: "Online Catalog Perfumes T11",
     description:
-      "My first Demo App, and is a Web Catalog for a Local perfume Shoo Located in Barranquilla",
+      "My first client project: a web catalog for a local perfume shop based in Barranquilla.",
     tech: ["html", "CSS", "git"],
     techIcons: [html, css, git],
     image: t11,
@@ -81,7 +81,7 @@ const projects = [
     id: 5,
     title: "BuscaPelis",
     description:
-      "This is an website where people can find information for more tha 1 million movies and 200.000 TV Series. This website works with TMDB API",
+      "A web app to explore over 1 million movies and 200,000 TV series, powered by the TMDB API.",
     tech: [
       "React",
       "TypeScript",
@@ -102,7 +102,7 @@ const projects = [
     id: 6,
     title: "SIMON DICE GAME",
     description:
-      "Online version of Simon Says Game created to apply the manipulation of arrays, using push methods, validation and conditional Styling",
+      "A browser version of the classic Simon Says game, built to practice array manipulation, input validation, and conditional styling.",
     tech: ["js", "nodejs", "git"],
     techIcons: [js, node, git],
     image: simonDice,
@@ -114,7 +114,8 @@ const projects = [
     key: 7,
     id: 7,
     title: "Keeper App",
-    description: "A basic keeper App to save information online",
+    description:
+      "A note-keeping app to save and manage information online, built with React to practice state and component structure.",
     tech: ["React", "CSS", "Vite", "html", "git"],
     techIcons: [reactLogo, css, git, ViteLogo],
     image: KeeperApp,
@@ -126,7 +127,7 @@ const projects = [
     id: 8,
     title: "Tic-Tac-Toe Game",
     description:
-      "Is a tic-tac-toe demo App created to implement programing logic using objects, arrays and useSate Hooks",
+      "A Tic-Tac-Toe game built to apply programming logic with objects, arrays, and the useState hook.",
     tech: ["React", "Vite", "CSS", "html", "git"],
     techIcons: [reactLogo, css, git, ViteLogo],
     image: TicTacToe,
@@ -138,7 +139,7 @@ const projects = [
     id: 9,
     title: "Investment Calculator",
     description:
-      "An investment Calculator so the people can calculate how much money can they get for investing with certain interest",
+      "An investment calculator that estimates returns over time based on an initial amount and a given interest rate",
     tech: ["React", "Vite", "CSS", "html", "git"],
     techIcons: [reactLogo, css, git, ViteLogo],
     image: InvestmentCalculator,
@@ -150,7 +151,7 @@ const projects = [
     id: 10,
     title: "CountDown-Game",
     description:
-      "This is a CountDown-Game where I implement the use of Hooks like useRef and useState, using programing logic to render and calculate the Score",
+      "A countdown game where I applied hooks like useRef and useState to render the timer and calculate the score in real time.",
     tech: ["React", "Vite", "CSS", "html", "git"],
     techIcons: [reactLogo, css, git, ViteLogo],
     image: CountDownGame,
@@ -161,7 +162,8 @@ const projects = [
     key: 11,
     id: 11,
     title: "Jobify App",
-    description: "Full stack Mobile App in development with Jobify Team",
+    description:
+      " full-stack mobile app currently in development with the Jobify team, built with React, Next.js, and Tailwind CSS.",
     tech: ["React", "js", "NextJs", "Css", "Tailwind", "git"],
     techIcons: [reactLogo, js, nextjs, css, tailwind, git],
     image: Jobify,

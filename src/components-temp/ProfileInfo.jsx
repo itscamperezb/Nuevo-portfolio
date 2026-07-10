@@ -1,7 +1,7 @@
 import "../App.css";
 import Button from "@mui/material/Button";
 import fotoProfesional from "@/assets/FOTO PROFESIONAL.jpg";
-import CV from "@/assets/Camilo Pérez Barraza Front-end Engineer Resume English.pdf";
+import CV from "@/assets/Camilo Perez Barraza 2026.pdf";
 import { motion } from "motion/react";
 import { TypingAnimation } from "@/components-temp/ui/typing-animation";
 
@@ -16,7 +16,7 @@ const transition = {
 
 const homeInfo = {
   h1: "FullStack Developer",
-  p: "I am responsible for creating and implementing React components, hooks, managing views and information with Next.js, responsive design using tools such as Tailwind/CSS, managing libraries, frameworks, object-oriented programming, and implementing AI tools such as Claude Code. I also have experience integrating and consuming APIs, using GIT for version control and collaborative work, and knowledge of",
+  p: "I'm a web developer with a strong focus on automation. I build interfaces with React and Next.js, and design workflows with n8n that turn repetitive tasks into processes that run on their own. I work with Tailwind CSS, REST APIs, Git, and AI-assisted tooling like Claude Code.",
 };
 function ProfileInfo() {
   return (
