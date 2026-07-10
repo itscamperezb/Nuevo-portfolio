@@ -37,7 +37,7 @@ const projects = [
     techIcons: [n8n, git],
     image: workflow,
     github: "https://github.com/itscamperezb/FinanceAssistant.git",
-    demo: "https://expo.dev/preview/update?message=fix%3A+impostor+aleatorio+y+m%C3%BAsica+persistente+entre+partidas&updateRuntimeVersion=1.0.0&createdAt=2026-04-26T22%3A02%3A21.746Z&slug=exp&projectId=c059b960-8aed-4180-b956-8df54fd8a153&group=92b7b8f7-645d-4d18-916d-bb7a49cd86af",
+    demo: "https://github.com/itscamperezb/FinanceAssistant.git",
   },
   {
     key: 2,
