@@ -46,7 +46,7 @@ const projects = [
     description:
       "A mobile party game inspired by the viral Impostor format: players have to figure out who the impostor is. Currently in development with React Native and Expo, using Supabase for the backend.",
     tech: ["html", "CSS", "git", "react", "expo", "Supabase"],
-    techIcons: [html, css, git],
+    techIcons: [html, css, git, expo, reactLogo, supabase],
     image: ImpostorGame,
     github: "https://github.com/itscamperezb/Impostor-Game2.git",
     demo: "https://expo.dev/preview/update?message=fix%3A+impostor+aleatorio+y+m%C3%BAsica+persistente+entre+partidas&updateRuntimeVersion=1.0.0&createdAt=2026-04-26T22%3A02%3A21.746Z&slug=exp&projectId=c059b960-8aed-4180-b956-8df54fd8a153&group=92b7b8f7-645d-4d18-916d-bb7a49cd86af",
@@ -66,6 +66,18 @@ const projects = [
   {
     key: 4,
     id: 4,
+    title: "Jobify App",
+    description:
+      "Landing Page for a Colombian Starup for the prelaunch of their web app. Built with Astro, React and cloud tools like engran for saving shared documentation and context for AI.",
+    tech: ["React", "js", "NextJs", "Css", "Tailwind", "git"],
+    techIcons: [reactLogo, js, nextjs, css, tailwind, git],
+    image: Jobify,
+    github: "https://github.com/jobifyhq",
+    demo: "https://github.com/jobifyhq/jobify-webapp",
+  },
+  {
+    key: 5,
+    id: 5,
     title: "Online Catalog Perfumes T11",
     description:
       "My first client project: a web catalog for a local perfume shop based in Barranquilla.",
@@ -77,8 +89,8 @@ const projects = [
   },
 
   {
-    key: 5,
-    id: 5,
+    key: 6,
+    id: 6,
     title: "BuscaPelis",
     description:
       "A web app to explore over 1 million movies and 200,000 TV series, powered by the TMDB API.",
@@ -98,8 +110,8 @@ const projects = [
     demo: "https://itscamperezb.github.io/BuscaPelis/",
   },
   {
-    key: 6,
-    id: 6,
+    key: 7,
+    id: 7,
     title: "SIMON DICE GAME",
     description:
       "A browser version of the classic Simon Says game, built to practice array manipulation, input validation, and conditional styling.",
@@ -111,8 +123,8 @@ const projects = [
   },
 
   {
-    key: 7,
-    id: 7,
+    key: 8,
+    id: 8,
     title: "Keeper App",
     description:
       "A note-keeping app to save and manage information online, built with React to practice state and component structure.",
@@ -123,8 +135,8 @@ const projects = [
     demo: "https://itscamperezb.github.io/MyKeeperApp/",
   },
   {
-    key: 8,
-    id: 8,
+    key: 9,
+    id: 9,
     title: "Tic-Tac-Toe Game",
     description:
       "A Tic-Tac-Toe game built to apply programming logic with objects, arrays, and the useState hook.",
@@ -135,8 +147,8 @@ const projects = [
     demo: "https://itscamperezb.github.io/TIC-TAC-TOE/",
   },
   {
-    key: 9,
-    id: 9,
+    key: 10,
+    id: 10,
     title: "Investment Calculator",
     description:
       "An investment calculator that estimates returns over time based on an initial amount and a given interest rate",
@@ -147,8 +159,8 @@ const projects = [
     demo: "https://itscamperezb.github.io/Invesment-Calculator/",
   },
   {
-    key: 10,
-    id: 10,
+    key: 11,
+    id: 11,
     title: "CountDown-Game",
     description:
       "A countdown game where I applied hooks like useRef and useState to render the timer and calculate the score in real time.",
@@ -157,18 +169,6 @@ const projects = [
     image: CountDownGame,
     github: "https://github.com/itscamperezb/CountdownGame.git",
     demo: "https://itscamperezb.github.io/CountdownGame/",
-  },
-  {
-    key: 11,
-    id: 11,
-    title: "Jobify App",
-    description:
-      " full-stack mobile app currently in development with the Jobify team, built with React, Next.js, and Tailwind CSS.",
-    tech: ["React", "js", "NextJs", "Css", "Tailwind", "git"],
-    techIcons: [reactLogo, js, nextjs, css, tailwind, git],
-    image: Jobify,
-    github: "https://github.com/jobifyhq",
-    demo: "https://github.com/jobifyhq/jobify-webapp",
   },
 ];
 
