@@ -26,6 +26,7 @@ import supabase from "@/assets/supabase-logo-icon.svg";
 import expo from "@/assets/client.svg";
 import workflow from "@/assets/FinanceBot.png";
 import n8n from "@/assets/n8n.svg";
+import operationsAssistant from "@/assets/OperationsAssistantAgent.png";
 const projects = [
   {
     key: 1,
@@ -35,7 +36,7 @@ const projects = [
       "AI agent focus on extrating and organizing information from multiple sources, including speedsheets, documents, and databases. It automates repetitive tasks and provides insights to support decision-making.",
     tech: ["n8n", "git"],
     techIcons: [n8n, git],
-    image: workflow,
+    image: operationsAssistant,
     github: "https://github.com/itscamperezb/pdf-ops-agent.git",
     demo: "https://github.com/itscamperezb/pdf-ops-agent.git",
   },
