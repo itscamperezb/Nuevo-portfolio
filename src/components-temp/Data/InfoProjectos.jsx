@@ -26,7 +26,7 @@ import supabase from "@/assets/supabase-logo-icon.svg";
 import expo from "@/assets/client.svg";
 import workflow from "@/assets/FinanceBot.png";
 import n8n from "@/assets/n8n.svg";
-import operationsAssistant from "@/assets/OperationsAssistantAgent.png";
+import operationsAssistant from "@/assets/OperationAssistantAgent.png";
 const projects = [
   {
     key: 1,
