@@ -2,7 +2,7 @@ import "../App.css";
 import Button from "@mui/material/Button";
 import fotoProfesional from "@/assets/FOTO PROFESIONAL.jpg";
 import CV from "@/assets/Camilo Perez Resume 2026.pdf";
-import CV2 from "@/assets/Camilo Perez Barraza WD.docx";
+import CV2 from "@/assets/Camilo Perez Barraza WD.pdf";
 import { motion } from "motion/react";
 import { TypingAnimation } from "@/components-temp/ui/typing-animation";
 
