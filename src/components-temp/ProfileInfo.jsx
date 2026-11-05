@@ -2,6 +2,7 @@ import "../App.css";
 import Button from "@mui/material/Button";
 import fotoProfesional from "@/assets/FOTO PROFESIONAL.jpg";
 import CV from "@/assets/Camilo Perez Resume 2026.pdf";
+import CV2 from "@/assets/Camilo Perez Barraza WD.docx";
 import { motion } from "motion/react";
 import { TypingAnimation } from "@/components-temp/ui/typing-animation";
 
@@ -58,7 +59,7 @@ function ProfileInfo() {
           </Button>
         </a>
         <a
-          href={CV}
+          href={CV2}
           download
           className="flex justify-center items-center max-sm:w-full sm:w-1/3 md:w-1/4 2xl:w-1/6"
         >
